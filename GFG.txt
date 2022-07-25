@@ -1,4 +1,4 @@
-Program to check weather a number is palindrome of not.(GFG)
+*Program to check weather a number is palindrome of not.(GFG)
 class Solution {
     int isPalindrome(String S) {
         int count;
