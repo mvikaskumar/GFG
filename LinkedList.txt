@@ -1,0 +1,20 @@
+* This is the logic of reversing LinkedList in iterativfe way.
+
+class Solution
+{
+    //Function to reverse a linked list.
+    Node reverseList(Node head)
+    {
+        // code here
+        Node dummyNode=null;
+        while(head!=null){
+            Node lost=head.next;
+            head.next=dummyNode;
+            dummyNode=head;
+            head=lost;
+        }
+        return dummyNode;
+    }
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
