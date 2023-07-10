@@ -1,4 +1,4 @@
-* This is the logic of reversing LinkedList in iterativfe way.
+* This is the logic of reversing LinkedList in iterative way.
 
 class Solution
 {
