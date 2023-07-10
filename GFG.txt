@@ -14,7 +14,7 @@ public class Main {
 
 _______________________________________________________________________________________________________________________________
 
-*Program to check weather a number is palindrome of not.(GFG)
+*Program to check weather a number is palindrome or not.(GFG)
 class Solution {
     int isPalindrome(String S) {
         int count;
