@@ -17,4 +17,20 @@ class Solution
     }
 }
 
+*Find Mid of linked List.
+//Here is the solution of how to find mid of LinkedList.
+//in this we applied fast and slow method in which fast will move by 2 while slow is by one.
+class Solution
+{
+    int getMiddle(Node head)
+    {
+        Node slow=head;
+        Node fast=head;
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        return slow.data;
+    }
+}
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
